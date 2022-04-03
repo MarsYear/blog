@@ -1,0 +1,24 @@
+
+# SideBar Avatar
+avatar:
+  title : Marsyearの记录屋
+  url: /avatar.jpg
+  rounded: true
+  opacity: 1
+
+favicon: /favicon.ico
+
+banner:
+  title:
+   - Mars
+   - Year
+   - の
+   - 怪盗团
+  enable: true
+  border: false
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
