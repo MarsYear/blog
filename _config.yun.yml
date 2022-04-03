@@ -1,8 +1,17 @@
 
+# custom myself assets in head
+head:
+  css:
+  js:
+    async:
+    #aliyun iconfont
+      iconfont: //at.alicdn.com/t/font_2562370_5ieunq9xazl.js
+    
+
 # SideBar Avatar
 avatar:
   title : Marsyearの记录屋
-  url: /avatar.jpg
+  url: /avatar.png
   rounded: true
   opacity: 1
 
@@ -13,7 +22,9 @@ banner:
    - Mars
    - Year
    - の
-   - 怪盗团
+   - 时光
+   - 记录
+   - 延续
   enable: true
   border: false
   cloud:
@@ -22,3 +33,16 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+
+fireworks:
+  enable: true
+  colors:
+    - "254, 0, 1"
+    - "0, 0, 0"
+    - "254, 0, 1"
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
