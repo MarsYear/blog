@@ -2,6 +2,7 @@
 # custom myself assets in head
 head:
   css:
+    base: /css/common.css
   js:
     async:
     #aliyun iconfont
@@ -32,7 +33,9 @@ bg_image:
   # dark:
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
+  dark: /darkBg.png
 
+# 首页标语配置
 banner:
   title:
    - Mars
@@ -50,6 +53,7 @@ banner:
     enable: true
     icon: icon-arrow-down-s-line
 
+# 鼠标点击样式
 fireworks:
   enable: true
   colors:
@@ -57,8 +61,9 @@ fireworks:
     - "121, 202, 254"
     - "45, 96, 155"
 
+# 鼠标样式
 cursor:
   enable: true
-  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  default: /move.cur
   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
