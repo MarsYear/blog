@@ -15,7 +15,23 @@ avatar:
   rounded: true
   opacity: 1
 
+# site ico
 favicon: /favicon.ico
+
+colors:
+  primary: "#2d609b"
+  bg: "#FFF"
+  selection_bg: "#79cafe" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+
+bg_image:
+  enable: true
+  url: /bg.png
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
 
 banner:
   title:
@@ -37,9 +53,9 @@ banner:
 fireworks:
   enable: true
   colors:
-    - "254, 0, 1"
-    - "0, 0, 0"
-    - "254, 0, 1"
+    - "45, 96, 155"
+    - "121, 202, 254"
+    - "45, 96, 155"
 
 cursor:
   enable: true
