@@ -66,6 +66,41 @@ cursor:
   default: /pointer.cur
   pointer: /link.cur
   text: /text.cur
+
+# pay
+reward:
+  enable: false
+  comment: 如果对你有帮助，那就投个币吧(｡◕∀◕｡)
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+comment:
+  candidates:
+    - waline
+    # - giscus
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/MarsYear/blog/discussions/" target="_blank">GitHub Discussions</a> 与我交流。
+
+footer:
+  since: 2022
+  beian:
+    enable: true
+    icp: 京ICP备2021037803号
+  support:
+    enable: false
+    title: 又拍云
+    link: https://www.upyun.com
+    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+    prefix: 本网站由
+    suffix: 提供 CDN 加速
+  custom_text:    
   
 # CDN
 cdn:
