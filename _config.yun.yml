@@ -41,9 +41,9 @@ banner:
    - Mars
    - Year
    - の
-   - 时光
-   - 记录
-   - 延续
+   - 日常
+   - 回忆
+   - 录
   enable: true
   border: false
   cloud:
@@ -64,6 +64,6 @@ fireworks:
 # 鼠标样式
 cursor:
   enable: true
-  default: /move.cur
-  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
-  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+  default: /pointer.cur
+  pointer: /link.cur
+  text: /text.cur
