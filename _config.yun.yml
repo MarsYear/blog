@@ -6,7 +6,7 @@ head:
   js:
     async:
     #aliyun iconfont
-      iconfont: //at.alicdn.com/t/font_2562370_5ieunq9xazl.js
+      iconfont: //at.alicdn.com/t/font_2562370_d2noxce2sqr.js
     
 
 # SideBar Avatar
@@ -67,6 +67,47 @@ cursor:
   pointer: /link.cur
   text: /text.cur
 
+# sideMenu
+social:
+  - name: GitHub
+    link: https://github.com/MarsYear
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/6686944?spm_id_from=333.1007.0.0
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: E-Mail
+    link: mailto:marsyear@gexiaowen.com
+    icon: icon-mail-line
+    color: "#8E71C1"  
+  - name: PS账号
+    link: https://account.xbox.com/zh-cn/Profile?xr=mebarnav&rtc=1
+    icon: icon-playstation-
+    color: "#0072d0" 
+  - name: Xbox账号
+    link: https://account.xbox.com/zh-cn/Profile?xr=mebarnav&rtc=1
+    icon: icon-xbox
+    color: "green"
+  - name: steam账号
+    link: https://steamcommunity.com/profiles/76561198161303810/
+    icon: icon-steam  
+    color: "#182d5e"
+  
+
+# sideMenu下的醒目链接
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 游玩的游戏
+    url: /gamelist/
+    icon: icon-Games-Folder
+    color: hotpink
+
+
+
 # pay
 reward:
   enable: false
@@ -112,3 +153,10 @@ cdn:
       # 默认引入的图标资源，使用 iconfont
       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
     defer:
+
+# 默哀
+mourn:
+  enable: true
+  days:
+    - "4-4"
+    - "5-12"
