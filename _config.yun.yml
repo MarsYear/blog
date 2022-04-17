@@ -130,6 +130,8 @@ pages:
     color: hotpink
 
 
+wordcloud:
+  enable: true
 
 # pay
 reward:
