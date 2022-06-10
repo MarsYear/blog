@@ -105,11 +105,11 @@ social:
     icon: icon-mail-line
     color: "#8E71C1"  
   - name: PS账号
-    link: https://account.xbox.com/zh-cn/Profile?xr=mebarnav&rtc=1
+    link: /sony/psn
     icon: icon-playstation-
     color: "#0072d0" 
   - name: Xbox账号
-    link: https://account.xbox.com/zh-cn/Profile?xr=mebarnav&rtc=1
+    link: /microsoft/xbox
     icon: icon-xbox
     color: "green"
   - name: steam账号
@@ -127,7 +127,7 @@ pages:
   - name: 游玩的游戏
     url: /gamelist/
     icon: icon-Games-Folder
-    color: hotpink
+    color: "#4f85bc"
 
 
 wordcloud:
@@ -153,7 +153,7 @@ comment:
     # - giscus
   tips:
     - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/MarsYear/blog/discussions/" target="_blank">GitHub Discussions</a> 与我交流。
-
+  
 footer:
   since: 2022
   beian:
