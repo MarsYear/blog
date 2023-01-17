@@ -9,7 +9,7 @@ links:
   - url: https://yunyoujun.cn
     avatar: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io/images/avatar.jpg
     name: MarsYear
-    blog: MarsYear的记录屋
+    blog: 火星年的个人小站
     desc: All at sea.
     color: "#0078e7" # 代表色
     email: marsyear@gexiaowen.com # 非必须
