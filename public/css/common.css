@@ -1,0 +1,16 @@
+#footer {
+ color: #FFF !important;   
+}
+.beian a {
+    color: #63a1e8 !important;
+}
+.beian a:hover {
+    color: red !important;
+}
+.powered span {
+    color: #63a1e8 !important;
+}
+
+.markdown-body blockquote {
+    border-left: 4px solid #63a1e8;
+}
