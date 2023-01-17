@@ -37,12 +37,11 @@ bg_image:
 # Index Slogan
 banner:
   title:
-   - Mars
-   - Year
-   - の
-   - 日常
-   - 回忆
-   - 录
+   - 火星
+   - 年
+   - 的
+   - 个人
+   - 小站
   enable: true
   border: false
   cloud:
